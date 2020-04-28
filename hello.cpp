@@ -1,5 +1,12 @@
 #include<iostream>
 #include "breathmachine.h"
+
+/*********************************************/
+/** State Machine example in CPP             */
+/** BOL - BVM Project                        */
+/** Jean-Yves Célis, Apr 2020                */
+/*********************************************/
+
 int main() {
     CBreathMachine *btm = new CBreathMachine();
     try {
